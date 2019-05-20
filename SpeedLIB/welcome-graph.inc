@@ -1,6 +1,6 @@
 #!/bin/bash
 # ╭――╮
 # SPOS ─ text graphic interface.
-# ╰──╯	 SPOS - graph-interface.inc
+# ╰──╯	 SPOS - welcome-graph.inc
 #	├──▶ Welcome meniu.
 #	╰──▶ License agreament.
