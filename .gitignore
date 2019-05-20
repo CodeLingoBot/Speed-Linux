@@ -1,0 +1,12 @@
+*.inc
+*.cnf
+*.run
+*.doit
+.slib
+.glib
+.sh
+SpeedLIB
+SpeedRAW
+SpeedTMP
+SpeedSRC
+SpeedRPM
