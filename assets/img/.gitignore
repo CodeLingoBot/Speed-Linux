@@ -1,0 +1,15 @@
+# ╭――╮
+# SPOS ─ images and other graphic files.
+# ╰──╯	 SPOS - .server-imges
+#	├──▶ Logo, icons and pdf.
+#	╰──▶ Screenshoots and etc.
+*.svg
+*.svgz
+*.jpeg
+*.jpg
+*.png
+*.bmp
+*.ppm
+*.ai
+*.eps
+*.pdf
