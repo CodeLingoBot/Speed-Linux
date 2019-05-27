@@ -1,10 +1,11 @@
-#######################################################
-# btbSC.sh server config
-#
-#######################################################
-#export PATH="/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin"
-# set locale temporarily to english
-# due to some non-english locale issues
+# ╭――╮
+# SPOS ─ server config.
+# ╰──╯	 SPOS - server config.inc
+#	├──▶ Start required config.
+#	╰──▶ First server config file.
+#	 ├──▶ export PATH="/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin"
+#	 ├──▶ set locale temporarily to english
+#	 ╰──▶ due to some non-english locale issues
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
@@ -69,8 +70,8 @@ if [ "$CENTOSVER" == 'release' ]; then
     fi
 fi
 
-if [[ "$(cat /etc/redhat-release | awk '{ print $3 }' | cut -d . -f1)" = '6' ]]; then
-    CENTOS_SIX='6'
+if [[ "$(cat /etc/redhat-release | awk '{ print $3 }' | cut -d . -f1)" = '8' ]]; then
+    COS8='8'
 fi
 
 # Check for Redhat Enterprise Linux 7.x
@@ -83,7 +84,7 @@ if [ "$CENTOSVER" == 'Enterprise' ]; then
 fi
 
 if [[ -f /etc/system-release && "$(awk '{print $1,$2,$3}' /etc/system-release)" = 'Amazon Linux AMI' ]]; then
-    CENTOS_SIX='6'
+    COS8='8'
 fi
 
 if [[ "$COS7" -eq '7' ]]; then
