@@ -23,4 +23,4 @@ cd Speed-Linux
 bash Run-And-Build.sh
 ```
 
-Don't see what you're looking for? Create an [issue](https://github.com/zedanas/Speed-Linux), we'll do our best to help you out.
+Don't see what you're looking for? Create an [issue](https://github.com/zedanas/Speed-Linux/issues), we'll do our best to help you out.
